@@ -108,6 +108,7 @@ const Tablero = () => {
     return (
         <>
         <div className="tablero">
+            <h1><span>Tic</span> Tac Toe</h1>
             <div className="row">
                 {/* valor = valor de esa posicion y handleClink = posicion de la casilla */}
                 {/* <Casilla valor={map[0]} onClick = {() => handleClick(0)} turno={turno}/>  
