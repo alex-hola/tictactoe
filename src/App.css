@@ -32,16 +32,27 @@ span{
 
 }
 
+.casilla:hover{
+  cursor: pointer;
+  background-color: grey;
+}
+
 .casillaX{
-
   background-color: rgb(187, 118, 181);
-  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-
+  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%); 
 }
 
 .casillaY{
   background-color: rgb(43, 175, 158);
   border-radius: 50%;
+}
+
+.casillaY:hover{
+  background-color:rgb(43, 175, 158);
+}
+
+.casillaX:hover{
+  background-color:rgb(187, 118, 181);
 }
 
 .ganador{

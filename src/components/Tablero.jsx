@@ -59,7 +59,7 @@ const Tablero = () => {
                 
             //empate si no hay ningun 0 en el map
             if(!newMap.includes(0)){
-                finalPartida(null, []);
+                finalPartida(null, Array.from(Array(9).keys()));//keys da los indices, array de 0 a 8, estan todos los valores de las combinaciones
                 return;
             }
 
